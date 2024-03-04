@@ -1,0 +1,20 @@
+/* Responsive Styles */
+@media only screen and (max-width: 768px) {
+    /* Adjustments for smaller screens */
+    .container {
+        padding: 0 10px;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    /* Further adjustments for very small screens */
+    nav ul li {
+        display: block;
+        margin: 5px 0;
+    }
+}
